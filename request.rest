@@ -1,0 +1,24 @@
+POST http://localhost:3000/news
+Content-Type: application/json
+
+{
+    "title" : "New 466",
+    "text" : "Text",
+    "email" : "john@gmail.com"
+}
+
+###
+GET http://localhost:3000/news
+
+### 
+PUT http://localhost:3000/news/636cc11b1372c12175587d1d
+Content-Type: application/json
+
+{
+    "text" : "vasyagmail.com"
+}
+
+###
+DELETE http://localhost:3000/news/636cc4265cf84a1390a10d4f
+
+
